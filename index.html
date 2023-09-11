@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Ammar - Homepage</title>
     <style>
       img {
@@ -11,7 +12,8 @@
       }
     </style>
 </head>
-<body>
+<body">
+  <main class="flex-shrink-0">
   <!-- navbar start -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top mb-5 border">
     <div class="container px-5">
@@ -22,13 +24,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -37,37 +39,72 @@
   <!-- navbar end -->
 
   <!-- first layout start-->
-  <section>
+  <section class="">
   <br><br>
-  <div class="container-fluid text-center bg-dark text-light" style="height: 100vh;">
-    <div class="row text-center align-items-center">
-      <div class="col-sm-7">
-        WELCOME TO MY HOMEPAGE
+  <div class="container-fluid text-center bg-secondary text-light" style="height: 100vh;">
+    <div class="row gx-5 align-items-center">
+      <div class="col-sm-3">
+        <br><br>
+        <img src="/assets/WhatsApp Image 2023-09-10 at 10.12.38.jpg" alt="my image" style="width: 70%;">
       </div>
       <br><br><br>
-      <div class="col-sm-5">
+      <div class="col-sm-9">
         <br><br>
-        <img src="WhatsApp Image 2023-09-10 at 10.12.38.jpg" alt="my image" style="width: 70%;">
+        <h2>Ammar Farras Hanindhiya Bastian</h2>
+        <h5>Student</h5>
       </div>
     </div>
   </div>
 </section>
   <!-- first layout end -->
 
-  <!-- first section start -->
-  <section>
-    <div class="container-fluid bg-dark text-li" style="height: 100vh;">
+  <!-- about start -->
+  <section id="about">
+    <div class="container-fluid bg-dark text-light" style="height: 100vh;">
       <div class="row text-center align-items-center">
-        <div class="col-sm-6">
-          My About
+        <div class="col-sm-12">
+          <br>
+          <h2>My About</h2>
+          <br>
+          <h5>Hallo! Nama saya Ammar Farras Hanindhiya Bastian, saya lahir di Jakarta 8 November 2006. Saya adalah anak kedua dari tiga bersaudara. Saya menempuh pendidikan dasar di SD Puri Artha, lalu melanjutkan pendidikan di SMP Puri Artha dan sedang menempuh pendidikan di SMKN 1 Karawang. Itulah sedikit perkenalan dari saya. Terima Kasih!</h5>
         </div>
-
+        <div class="col-sm-12">
+          <br><br>
+          <H2>HOBI</H2>
+          <div class="row">
+          <div class="col-sm-6">
+            <div class="card mx-auto" style="width: 12rem; background-color:gray;">
+            <img src="/assets/point-blank-logo-design-0.png" alt="Ping">
+            <div class="card-body">
+              <h5 class="card-title">Bermain online game</h5>
+              <p class="card-text"></p>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mx-auto" style="width: 12rem; background-color:gray;">
+            <img src="/assets/Spotify_App_Logo.svg.png" alt="Ping">
+            <div class="card-body">
+              <h5 class="card-title">Mendengarkan Musik</h5>
+              <p class="card-text"></p>
+            </div>
+            </div>
+          </div>
       </div>
-
     </div>
   </section>
+  <!-- about end -->
 
-  <!-- first section end -->
+  <!-- contact start -->
+  <section class="footer pt-5 pb-5" id="contact">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="container text-center contact"> 
+      <a href="https://www.instagram.com/ammarfarrashb/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/AmmarFarrasH"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </section>
+  <!-- contact end -->
+</main>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
