@@ -9,13 +9,15 @@
     <style>
       img {
         border-radius: 50%;
+        max-width: 100%;
+        height: auto;
       }
     </style>
 </head>
 <body">
   <main class="flex-shrink-0">
   <!-- navbar start -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top mb-5 border">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top mb-5 border id">
     <div class="container px-5">
       <a class="navbar-brand" href="#">AmmaR</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +26,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -39,66 +41,63 @@
   <!-- navbar end -->
 
   <!-- first layout start-->
-  <section class="">
-  <br><br>
-  <div class="container-fluid text-center bg-secondary text-light" style="height: 100vh;">
-    <div class="row gx-5 align-items-center">
-      <div class="col-sm-3">
+  <section class="container-fluid text-center pt-5 pb-5 d-flex bg-secondary text-light">
+    <div class="row align-items-center">
+      <div class="col-sm-6">
         <br><br>
         <img src="/assets/WhatsApp Image 2023-09-10 at 10.12.38.jpg" alt="my image" style="width: 70%;">
       </div>
       <br><br><br>
-      <div class="col-sm-9">
+      <div class="col-sm-6">
         <br><br>
         <h2>Ammar Farras Hanindhiya Bastian</h2>
         <h5>Student</h5>
       </div>
     </div>
-  </div>
-</section>
+  </section>
   <!-- first layout end -->
 
   <!-- about start -->
-  <section id="about">
+  <section class="pb-5" id="about">
     <div class="container-fluid bg-dark text-light" style="height: 100vh;">
       <div class="row text-center align-items-center">
-        <div class="col-sm-12">
-          <br>
+        <div class="col-sm-6">
           <h2>My About</h2>
           <br>
           <h5>Hallo! Nama saya Ammar Farras Hanindhiya Bastian, saya lahir di Jakarta 8 November 2006. Saya adalah anak kedua dari tiga bersaudara. Saya menempuh pendidikan dasar di SD Puri Artha, lalu melanjutkan pendidikan di SMP Puri Artha dan sedang menempuh pendidikan di SMKN 1 Karawang. Itulah sedikit perkenalan dari saya. Terima Kasih!</h5>
         </div>
-        <div class="col-sm-12">
-          <br><br>
-          <H2>HOBI</H2>
+        <div class="col-sm-6 mt-5">
+          <H2 class="mb-5 mt-5">HOBI</H2>
           <div class="row">
-          <div class="col-sm-6">
-            <div class="card mx-auto" style="width: 12rem; background-color:gray;">
+          <div class="col-6">
+            <div class="card mx-auto" style="width: 12rem; background-color:white;">
             <img src="/assets/point-blank-logo-design-0.png" alt="Ping">
-            <div class="card-body">
+            <div class="card-body sm-5">
               <h5 class="card-title">Bermain online game</h5>
               <p class="card-text"></p>
             </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="card mx-auto" style="width: 12rem; background-color:gray;">
+          <div class="col-6">
+            <div class="card mx-auto" style="width: 12rem; background-color:white;">
             <img src="/assets/Spotify_App_Logo.svg.png" alt="Ping">
-            <div class="card-body">
+            <div class="card-body sm-5 ">
               <h5 class="card-title">Mendengarkan Musik</h5>
               <p class="card-text"></p>
             </div>
             </div>
           </div>
+          </div>
+        </div> 
       </div>
     </div>
   </section>
   <!-- about end -->
 
   <!-- contact start -->
-  <section class="footer pt-5 pb-5" id="contact">
-    <h2 class="text-center">CONTACT</h2>
-    <div class="container text-center contact"> 
+  <section class="footer pt-3 pb-5" id="contact">
+    <h2 class="text-center fs-2">CONTACT</h2>
+    <div class="container text-center contact fs-2"> 
       <a href="https://www.instagram.com/ammarfarrashb/"><i class="fa-brands fa-instagram"></i></a>
       <a href="https://github.com/AmmarFarrasH"><i class="fa-brands fa-github"></i></a>
     </div>
